@@ -186,52 +186,53 @@ $layout-margin-size: 10px;
         margin-#{$direction}: $layout-margin-size / 2;
     }
 }
+
+@import 'flexbox';
+
 /* 
 
-        1. Instalar RUBY:
-        http://rubyinstaller.org/downloads
+1. Instalar RUBY:
+http://rubyinstaller.org/downloads
 
-        *** MARCAR A OPÇÃO ***
-        Add Ruby executables to your PATH
-
-        
-        2. Instalação do Saas:
-        
-        Basta rodar o comando abaixo no Terminal
-        "npm install -g sass”
-
-        *** RENOMEAR O ARQUIVO PARA A EXTENSÃO SCSS ***
-
-        *** CLONANDO O ARQUIVO SCSS PARA O CSS ***
-        sass estilos.scss:estilos.css
+*** MARCAR A OPÇÃO ***
+Add Ruby executables to your PATH
 
 
-        3. Assistindo o Sass
-        
-        ***   DECLARANDO A PASTA NO CMD   ***
-        sass --watch scss/style.scss:css/style.css 
+2. Instalação do Saas:
 
-        ***   RODANDO O CMD DENTRO DA PASTA   ***
-        sass --watch estilos.scss:estilos.css 
-        
-        
-        4. Instalação do Compass:
-        
-        Basta rodar o comando abaixo no Terminal
-        "gem install compass"
+Basta rodar o comando abaixo no Terminal
+"npm install -g sass”
 
-        *** NAVEGAR ATÉ A PASTA DO PROJETO NO CMD ***
-        "cd caminho-da-pasta-do-projeto"
+*** RENOMEAR O ARQUIVO PARA A EXTENSÃO SCSS ***
 
-        *** COMANDO DE CRIAÇÃO DO COMPASS
-        "compass create"
+*** CLONANDO O ARQUIVO SCSS PARA O CSS ***
+sass estilos.scss:estilos.css
 
-        
-        5. Assistindo o Compass:
-        
-        ***   DECLARANDO A PASTA NO CMD   ***
-        compass watch css/estilos.scss
-        
-        */
 
-        
+3. Assistindo o Sass
+
+***   DECLARANDO A PASTA NO CMD   ***
+sass --watch scss/style.scss:css/style.css 
+
+***   RODANDO O CMD DENTRO DA PASTA   ***
+sass --watch estilos.scss:estilos.css 
+
+
+4. Instalação do Compass:
+
+Basta rodar o comando abaixo no Terminal
+"gem install compass"
+
+*** NAVEGAR ATÉ A PASTA DO PROJETO NO CMD ***
+"cd caminho-da-pasta-do-projeto"
+
+*** COMANDO DE CRIAÇÃO DO COMPASS
+"compass create"
+
+
+5. Assistindo o Compass:
+
+***   DECLARANDO A PASTA NO CMD   ***
+compass watch css/estilos.scss
+
+*/

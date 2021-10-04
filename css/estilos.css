@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* Paleta de cores */
+/***     COLORS DEFAULT  ***/
+/***	COLORS LIGHT	***/
+/***	COLORS DARK	***/
+/*** CORES COM VARIAÇÃO DE TONALIDADES ***/
+/***	COPYRIGHT	***/
+/***	FONT-FAMILY	***/
+h1 {
+  font-family: "Indie Flower", cursive; }
+
+h2 {
+  font-family: "Amiri", serif; }
+
+h3 {
+  font-family: "Allison", cursive; }
+
+h4 {
+  font-family: "Edwardian Script ITC"; }
+
+h5 {
+  font-family: "Courier New", Courier, monospace; }
+
+h6 {
+  font-family: "Parisienne", cursive; }
+
+p {
+  font-family: "Courier New", Courier, monospace; }
+
+/*              MANIPULANDO O SASS              */
+.cabecalhoPrincipal .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.cabecalhoPrincipal-nav {
+  display: flex; }
+  .cabecalhoPrincipal-nav a {
+    background: #f9f9f9;
+    color: #444444; }
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; }
+
+/* 
+
+1. Instalar RUBY:
+http://rubyinstaller.org/downloads
+
+*** MARCAR A OPÇÃO ***
+Add Ruby executables to your PATH
+
+
+2. Instalação do Saas:
+
+Basta rodar o comando abaixo no Terminal
+"npm install -g sass”
+
+*** RENOMEAR O ARQUIVO PARA A EXTENSÃO SCSS ***
+
+*** CLONANDO O ARQUIVO SCSS PARA O CSS ***
+sass estilos.scss:estilos.css
+
+
+3. Assistindo o Sass
+
+***   DECLARANDO A PASTA NO CMD   ***
+sass --watch scss/style.scss:css/style.css 
+
+***   RODANDO O CMD DENTRO DA PASTA   ***
+sass --watch estilos.scss:estilos.css 
+
+
+4. Instalação do Compass:
+
+Basta rodar o comando abaixo no Terminal
+"gem install compass"
+
+*** NAVEGAR ATÉ A PASTA DO PROJETO NO CMD ***
+"cd caminho-da-pasta-do-projeto"
+
+*** COMANDO DE CRIAÇÃO DO COMPASS
+"compass create"
+
+
+5. Assistindo o Compass:
+
+***   DECLARANDO A PASTA NO CMD   ***
+compass watch css/estilos.scss
+
+*/
+
+/*# sourceMappingURL=estilos.css.map */
