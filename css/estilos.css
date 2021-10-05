@@ -47,7 +47,21 @@ p {
 .rodapePrincipal-patrocinadores-list {
   display: flex;
   align-items: center;
-  margin-right: 10px; }
+  justify-content: space-around;
+  width: 50%;
+  margin-right: 20%; }
+
+.rodapePrincipal-contatoForm {
+  width: 30%; }
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex; }
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  height: 260px; }
 
 /* 
 
@@ -75,7 +89,7 @@ sass estilos.scss:estilos.css
 sass --watch scss/style.scss:css/style.css 
 
 ***   RODANDO O CMD DENTRO DA PASTA   ***
-sass --watch estilos.scss:estilos.css 
+sass --watch formatacao.scss:estilos.css 
 
 
 4. Instalação do Compass:
