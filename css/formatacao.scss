@@ -119,6 +119,18 @@ $img-width: 45%;
     text-decoration: underline;
 }
 
+%flexbox-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%flexbox-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 /// Aula 3 - Mixin
 @mixin reset-list {
     margin: 0;
